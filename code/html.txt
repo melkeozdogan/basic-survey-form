@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <header>
+      <h1 id="title">Melike's Survey</h1>
+      <p id="description">I want to learn more about web design and development, hope I can figure it out.</p>
+      </header>
+      <main>
+      <form id="survey-form">
+        <label for="name-label" id="name-label">Please enter your name</label>
+        <input id="name" type="text" required placeholder="Name">
+        <label for="email-label" id="email-label">Please enter your email</label>
+        <input id="email" type="email" required placeholder="Email">
+        <label for="number-label" id="number-label">Please enter your number</label>
+        <input id="number" type="number" min="1" max="9" required placeholder="Age">
+        <select id="dropdown">
+          <option>Cola</option>
+          <option>Turkish-Doner</option>
+          </select>
+        <input type="radio" name="radio-button" id="glass" value="0">
+        <label for="glass">Glass</label>
+        <input type="radio" name="radio-button" id="chicken" value="1">
+        <label for="chicken">Chicken</label>
+        <input type="checkbox" value="0" >
+        <input type="checkbox" value="1">
+        <textarea>
+          </textarea>
+        <input id="submit" type="submit">
+        
+        </form>  
+        </main>
+      </body>
+  </html>
